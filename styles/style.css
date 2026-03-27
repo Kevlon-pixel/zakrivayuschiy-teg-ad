@@ -19,7 +19,7 @@
   font-family: var(--basic-font), sans-serif;
   font-variation-settings: 'wght' var(--slim-font-weight);
   font-size: 18px;
-  border-color: var(--text-color); 
+  border-color: var(--text-color);
   padding: 100px 0;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -74,7 +74,7 @@
   font-family: var(--pixel-font, sans-serif);
 }
 
-.theme-menu__button{
+.theme-menu__button {
   text-transform: uppercase;
   border: 0;
   background-color: inherit;
@@ -132,7 +132,7 @@
   flex-direction: column;
 }
 
-.card-list{
+.card-list {
   width: var(--element-width);
   display: flex;
   flex-direction: column;
@@ -269,8 +269,8 @@
   outline: none;
   height: 38px;
   padding: 0;
-  border: 2px solid transparent;
   transition: outline 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .card__icon-button:focus {
@@ -306,20 +306,19 @@
 }
 
 .button::before {
-  content: ""; 
-  display: block; 
-  position: absolute; 
-  z-index: 1; 
-  inset: 0; 
-  width: 0; 
-  height: 100%; 
-  display: block; 
-  background-color: var(--text-color); 
-  transition: width 0.5s ease-in-out; 
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--text-color);
+  transition: width 0.5s ease-in-out;
 }
 
 .button:hover::before {
-  width: 100%; 
+  width: 100%;
 }
 
 .card__like-button {
@@ -424,8 +423,7 @@ dialog::backdrop([open]) {
 }
 
 @media (width <= 376px) {
-  
-  .footer-button{
+  .footer-button {
     flex-direction: column;
   }
 
