@@ -264,7 +264,6 @@
   color: var(--text-color);
   align-items: center;
   background-color: var(--background-color);
-  border: none;
   cursor: pointer;
   outline: none;
   height: 38px;
